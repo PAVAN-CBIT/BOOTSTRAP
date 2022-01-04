@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Demo</title>
+        <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    </head>
+
+        <body class="container-fluid">
+            <h2>Product Info</h2>
+            <ul class="nav nav-tabs">
+                <li class="nav-item active"><a href="#basic" data-bs-toggle="tab" class="nav-link">Basic Details</a></li>
+                <li class="nav-item"><a href="#preview" data-bs-toggle="tab" class="nav-link">Preview</a></li>
+                <li class="nav-item"><a href="#description" data-bs-toggle="tab" class="nav-link">Description</a></li>
+            </ul>
+            <div class="tab-content">
+               <div class="tab-pane active show fade" id="basic">
+                   <h3>Basic Details</h3>
+                   <dl>
+                       <dt>Name</dt>
+                       <dd>boAt Neckband</dd>
+                       <dt>Price</dt>
+                       <dd>5600.54</dd>
+                   </dl>
+               </div>
+               <div class="tab-pane fade" id="preview">
+                   <h3>Preview</h3>
+                   <img src="messi.jpg" width="200" height="200">
+               </div>
+               <div class="tab-pane fade" id="description">
+                   <h3>Description</h3>
+                   <p>Something about product..</p>
+               </div>
+            </div>
+        <script src="./node_modules/jquery/dist/jquery.js"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
