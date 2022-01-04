@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Demo</title>
+        <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    </head>
+
+        <body class="container-fluid">
+            <h2>Signin</h2>
+         <div class="input-group">
+             <span class="bi bi-person input-group-text"></span>
+             <span class="input-group-text">User Name</span>
+             <input type="text" class="form-control">
+             <span class="bi bi-x-circle input-group-text"></span>
+         </div>
+               
+           
+        <script src="./node_modules/jquery/dist/jquery.js"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
