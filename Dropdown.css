@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Demo</title>
+        <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    </head>
+
+        <body class="container-fluid">
+           
+                   <div class="dropdown">
+                       <button class="dropdown-toggle" data-bs-toggle="dropdown">
+                           <span class="bi bi-globe"></span>language
+
+                       </button>
+                       <ul class="dropdown-menu dropdown-menu-dark">
+                           <li class="dropdown-item"><a href="#" class="dropdown-item-text">English</a></li>
+                           <li class="dropdown-item"><a href="#" class="dropdown-item-text">हिन्दी</a></li>
+                           <div class="dropdown-divider"></div>
+                           <li class="dropdown-item"><a href="#" class="dropdown-item-text">Help<span class="bi bi-question-circle"></span>  </a></li>
+                       </ul>
+
+                   </div>
+        <script src="./node_modules/jquery/dist/jquery.js"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
