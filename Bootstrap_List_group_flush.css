@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Demo</title>
+        <style>
+        
+        </style>
+        <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    </head>
+
+        <body class="container-fluid">
+          
+              <div>
+                <ul class="list-group list-group-flush">
+                                            <li class="list-group-item active"><a  href="#">HTML</a></li>
+                                            <li class="list-group-item"><a href="#">CSS</a></li>
+                                            <li class="list-group-item"><a href="#">JS</a></li>
+                </ul>
+              </div>
+<br><br><br>
+              <div>
+
+                  <ol class="list-group list-group-numbered">
+                                            <li class="list-group-item"><a href="#">HTML</a></li>
+                                            <li class="list-group-item disabled"><a href="#">CSS</a></li>
+                                            <li class="list-group-item"><a href="#">JS</a></li>
+                  </ol>
+
+            </div>
+
+          
+           
+
+                                   
+                                   
+              
+          
+
+        <script src="./node_modules/jquery/dist/jquery.js"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
