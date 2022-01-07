@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Demo</title>
+        <style>
+        
+        </style>
+        <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    </head>
+
+        <body class="container-fluid">
+               <h3>Input Group:-</h3><br><br><br>
+              <div class="input-group">
+                  <input type="text" class="form-control"  placeholder="Search Something">
+                  <button class="input-group-text btn-primary">Search</button>
+              </div>
+
+          
+           
+
+                                   
+                                   
+              
+          
+
+        <script src="./node_modules/jquery/dist/jquery.js"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
