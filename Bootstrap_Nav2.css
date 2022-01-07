@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Demo</title>
+        <style>
+        
+        </style>
+        <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    </head>
+
+        <body class="container-fluid">
+              <h2>Product Info</h2>
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item"><a href="#basic" data-bs-toggle="tab" class="nav-link">Basic Details</a></li>
+                                    <li class="nav-item"><a href="#preview" data-bs-toggle="tab" class="nav-link">Preview</a></li>
+                                    <li class="nav-item"><a href="#description" data-bs-toggle="tab" class="nav-link">Description</a></li>
+
+                                </ul>
+
+
+                                <div class="tab-content">
+                                    <div class="tab-pane active show fade" id="basic">
+                                        <h1>Bootstrap</h1><br>
+                                        <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="preview">
+                                        <img src="ntflx1.jpg" width="200" height="200">
+
+                                    </div>
+                                    <div class="tab-pane fade" id="description">
+                                        <dl>
+                                            <dt>Name</dt>
+                                            <dd>boAt Neckband</dd>
+                                            <dt>Price</dt>
+                                            <dd>5600.54</dd>
+                                        </dl>
+
+                                    </div>
+
+                                </div>
+                            
+           
+
+                                   
+                                   
+              
+          
+
+        <script src="./node_modules/jquery/dist/jquery.js"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
